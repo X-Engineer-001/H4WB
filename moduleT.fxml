@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+
+<Pane fx:id="module" prefHeight="60.0" prefWidth="60.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="h4wb.ModuleController">
+   <children>
+      <Circle fx:id="body" fill="#969696" layoutX="30.0" layoutY="30.0" onMouseDragged="#onDragged" onMousePressed="#onPressed" onMouseReleased="#onReleased" radius="30.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <TextField fx:id="lambdaText" alignment="CENTER" layoutX="15.0" layoutY="7.0" onAction="#onInput" onMouseDragged="#onDragged" onMousePressed="#onPressed" onMouseReleased="#onReleased" prefHeight="0.0" prefWidth="30.0" promptText="λ">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="muText" alignment="CENTER" layoutX="15.0" layoutY="31.0" onAction="#onInput" onMouseDragged="#onDragged" onMousePressed="#onPressed" onMouseReleased="#onReleased" prefHeight="0.0" prefWidth="30.0" promptText="μ">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+   </children>
+</Pane>
