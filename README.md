@@ -1,5 +1,5 @@
 How When Where Why What Break?<br>
-台大「計算機容錯」課程期末專題，我的目標是以程式模擬方式進行系統可靠性分析。程式沒有寫得很好，因為當時時間有點趕。<br>
+台大「計算機容錯」課程期末專題，我的目標是以程式模擬方式進行系統可靠性分析。程式架構跟易讀性沒有寫得很好，因為當時時間有點趕。<br>
 Block Diagrams Constructor + Editor + Simulator<br>
 <br>
 What is the problem?<br>
